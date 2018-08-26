@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if(mStoryIndex == 1) {
-                    Log.d("Destini", "Buttom Button pressed");
+                    Log.d("Destini", "Buttom button pressed");
                     mStoryLine.setText(R.string.T2_Story);
                     mTopButton.setText(R.string.T2_Ans1);
                     mButtomButton.setText(R.string.T2_Ans2);
